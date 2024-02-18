@@ -188,6 +188,28 @@ span{
    
 }
 
+.btn2 {
+    display: inline-block;
+   
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color2);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--second-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    margin-right: 2.3rem;
+}
+
+.btn2:hover{
+    box-shadow: none;
+}
+    
+
+
 .about{
     display: flex;
     justify-content: center;
@@ -476,26 +498,28 @@ span{
     html{
         padding: 2rem 3%;
     }
-}
 
-section{
-    padding: 10rem 3% 2rem;
-}
+    section{
+        padding: 10rem 3% 2rem;
+    }
 
-.services {
-    padding-bottom: 7rem ;
-}
+    .services {
+        padding-bottom: 7rem ;
+    }
 
-.protofoil{
-    padding: 7rem;
-}
+    .protofoil{
+        padding: 7rem;
+    }
 
-.contact {
-    min-height: auto;
-}
+    .contact {
+        min-height: auto;
+    }
 
-footer{
-    padding: 2rem 3%;
+    .footer{
+        padding: 2rem 3%;
+    }
+
+   
 }
 
 @media(max-width: 768px){
@@ -563,6 +587,14 @@ footer{
     .protofoil-container{
         grid-template-columns: repeat(2,1fr);
     }
+
+    .btn2{
+        display: inline-block;
+        
+        margin: 3rem 3rem;
+        
+        
+}
 }
 
 @media (max-width: 617px) {
@@ -602,5 +634,5 @@ footer{
         margin-top: 2rem;
     }
 
-
+   
 }
